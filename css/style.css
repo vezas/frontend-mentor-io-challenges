@@ -86,7 +86,8 @@ body {
   grid-template-columns: min-content 1fr;
   grid-template-rows: min-content;
   gap: 1rem;
-  grid-auto-flow: column; }
+  grid-auto-flow: column;
+  transition: background-color 0.5s; }
   .post--active {
     background-color: #f7fafd; }
   .post__avatar-box {
@@ -104,13 +105,15 @@ body {
     flex-direction: column;
     gap: 0.8rem; }
     .post__description-box .description__icon {
-      display: none;
+      opacity: 0;
+      display: inline-block;
       width: 1rem;
       height: 1rem;
       border-radius: 50%;
-      background-color: #f65351; }
+      background-color: #f65351;
+      transition: opacity 0.5s; }
       .post__description-box .description__icon--active {
-        display: inline-block; }
+        opacity: 1; }
     .post__description-box .description__message {
       padding: 1rem;
       border: 1px solid #dde7ee;
