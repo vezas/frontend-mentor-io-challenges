@@ -1,0 +1,46 @@
+.description {
+  font-size: 1.5rem;
+
+  &__user-name {
+    color: $color-very-dark-blue;
+    font-weight: 800;
+    cursor: pointer;
+    transition: color 0.3s;
+
+    &:hover {
+      color: $color-primary-blue;
+    }
+  }
+
+  &__action {
+    color: $color-grayish-blue;
+  }
+
+  &__category {
+    font-weight: 800;
+    cursor: pointer;
+    transition: color 0.3s;
+
+    &--post {
+      color: $color-dark-grayish-blue;
+
+      &:hover {
+        color: $color-primary-blue;
+      }
+    }
+
+    &--group {
+      color: $color-primary-blue;
+    }
+  }
+
+  &__timer {
+    color: $color-grayish-blue;
+    font-size: 1.2rem;
+  }
+
+  &__message {
+    color: $color-grayish-blue;
+    font-size: 1.5rem;
+  }
+}
