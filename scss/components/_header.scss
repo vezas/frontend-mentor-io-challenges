@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  &__heading {
+    font-size: 2rem;
+    font-weight: 800;
+    color: $color-very-dark-blue;
+  }
+
+  &__counter {
+    height: 2.8rem;
+    width: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-primary-blue;
+    border-radius: 1rem;
+    font-size: 2rem;
+    color: $color-white;
+  }
+
+  &__button {
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: inherit;
+    color: $color-grayish-blue;
+    cursor: pointer;
+    transition: color 0.3s;
+
+    &:hover,
+    &:active {
+      color: $color-primary-blue;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
