@@ -9,6 +9,10 @@
 html {
   font-size: 62.5%;
   font-weight: 500;
+
+  @include bp-md {
+    font-size: 92%;
+  }
 }
 
 body {

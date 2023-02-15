@@ -1,12 +1,18 @@
 body {
-  padding: 2rem;
   min-height: 100vh;
   background-color: $color-white;
+  background: $color-very-light-grayish-blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
   margin: 0 auto;
+  padding: 2rem;
+  max-width: 80rem;
   display: flex;
   flex-direction: column;
   gap: 3rem;
+  background-color: $color-white;
 }

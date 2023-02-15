@@ -1,0 +1,7 @@
+$bp-md: 768px;
+
+@mixin bp-md {
+  @media (min-width: $bp-md) {
+    @content;
+  }
+}
